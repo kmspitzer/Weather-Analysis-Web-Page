@@ -22,19 +22,17 @@
 }
 
 .vis_img {
-	width: 350px;
-	height: 350px;
+	width: 800px;
+	height: 450px;
 	margin: auto;
     border: 1px solid #000;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .thumbnail_img {
-    float: left;
-    width: 215px;
-    height: 135px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    width: 95%;
+    height: auto;
+    margin: auto auto 40px auto;
     border: 1px solid #000;
 }
 
@@ -56,7 +54,13 @@
 
 .desc_para {
 	display: block;
-	margin: auto;
+    text-align: justify;
+	margin: 20px auto auto auto;
+
+}
+
+.clear {
+    background-color: transparent;
 }
 
 .center {
@@ -74,8 +78,9 @@ h2 {
     font-size: 22px;
 }
 
-p {
+.summ_para {
     margin-top: 25px;
+    text-align: justify;
 }
 
 .dropdown-item {

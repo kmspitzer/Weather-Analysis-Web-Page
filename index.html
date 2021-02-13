@@ -9,7 +9,7 @@
     </head>
 
     <body class="grad">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
           <a class="navbar-brand" href="index.html"><h1><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-brightness-alt-high" viewBox="0 0 16 16">
               <path d="M8 3a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 3zm8 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zm-13.5.5a.5.5 0 0 0 0-1h-2a.5.5 0 0 0 0 1h2zm11.157-6.157a.5.5 0 0 1 0 .707l-1.414 1.414a.5.5 0 1 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm-9.9 2.121a.5.5 0 0 0 .707-.707L3.05 5.343a.5.5 0 1 0-.707.707l1.414 1.414zM8 7a4 4 0 0 0-4 4 .5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5 4 4 0 0 0-4-4zm0 1a3 3 0 0 1 2.959 2.5H5.04A3 3 0 0 1 8 8z"/>
               </svg> WeatherPy</h1></a>
@@ -42,12 +42,12 @@
 
         ​<div class="container-fluid">
           <div class="row">
-            <div class="col-sm-8">
+            <div class="col-lg-8 clear">
               <h1 class="text-lg-left">Weather Where You Are</h1>
               <h2>How does your location affect your weather?</h2>
               <hr>
               <img class="summ_img responsive textwrap" src="assets/weather_vane.jpg" alt="weather vane">
-                <p>
+                <p class="summ_para">
                     Sure, we all learned as kids that temperature rises as we get closer to the equator, but does it?  How can we
                     be sure?  What other weather phenomena change as we approach the equator?<br><br>
                     We randomly generated latitude and longitude values, and gathered weather data for the corresponding cities
@@ -56,17 +56,21 @@
                     of how these weather attributes are affected by proximity to the equator.
                 </p>
             </div>
-            <div class="col-sm-4 clear sidebar">
+            <div class="col-lg-4 clear sidebar">
               <h1>Visualizations</h1>
               <div class="row">
-                <div class="col">
+                <div class="col-lg-6">
                   <a href="latvstemp.html"><img class="thumbnail_img" src="visualizations/LatvMax Temp_scatter01-07-2021.png" alt="Latitude vs Max Temp"></a>
+                </div>
+                <div class="col-lg-6">
                   <a href="latvshum.html"><img class="thumbnail_img" src="visualizations/LatvHumidity_scatter01-07-2021.png" alt="Latitude vs Humidity"></a>
                 </div>
               </div>
               <div class="row">
-                <div class="col">
+                <div class="col-lg-6">
                   <a href="latvscloud.html"><img class="thumbnail_img" src="visualizations/LatvCloudiness_scatter01-07-2021.png" alt="Latitude vs Cloudiness"></a>
+                </div>
+                <div class="col-lg-6">
                   <a href="latvswind.html"><img class="thumbnail_img" src="visualizations/LatvWind Speed_scatter01-07-2021.png" alt="Latitude vs Wind Speed"></a>
                 </div>
               </div>          
