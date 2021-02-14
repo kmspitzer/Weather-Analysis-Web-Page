@@ -46,6 +46,14 @@ body {
     border: 3px solid darkslategray;
 }
 
+.pic_hover {
+    border: 1px solid black;
+}
+.pic_hover:hover
+{
+    border: 3px solid darkslategray;
+}
+
 .topspace {
     margin-top: 40px;
 }
