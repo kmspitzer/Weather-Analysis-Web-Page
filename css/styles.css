@@ -2,6 +2,10 @@ body {
     background: linear-gradient(54deg, rgba(125,250,219,1) 0%, rgba(191,219,224,1) 53%, rgba(173,237,248,1) 100%);
 }
 
+th {
+    text-align: left;
+}
+
 .summ_img {
     width: 500px;
     height: 500px;
