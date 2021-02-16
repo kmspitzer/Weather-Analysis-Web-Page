@@ -1,54 +1,68 @@
-body {
-    background: linear-gradient(54deg, rgba(125,250,219,1) 0%, rgba(191,219,224,1) 53%, rgba(173,237,248,1) 100%);
+
+/*******************************/
+/* set gradient for background */
+/*******************************/
+.grad {
+    background: linear-gradient(90deg, rgba(4,152,187,1) 0%, rgba(22,218,228,1) 35%, rgba(45,222,207,1) 100%);
 }
 
-th {
-    text-align: left;
+/********************/
+/* set header sizes */
+/********************/
+h1, h2 {
+    font-family: "Abril Fatface", cursive;
 }
 
-.summ_img {
-    width: 500px;
-    height: 500px;
-    border: 1px solid black;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
-    margin-right: 10px;
+h2 {
+    font-size: 22px;
 }
 
-.vis_img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-	max-width: 80%;
-	border-radius: 3px;
-	box-shadow: 0 8px 16px rgba(0,0,0,0.9);
+/*************************/
+/* set navbar formatting */
+/*************************/
+.navbar-brand h1 {
+    font-size: 25px;
 }
 
-.responsive {
-    width: 70%;
-    height: auto;
+.navbar-nav {
+    padding-right: 25px;
 }
 
-.textwrap {
-    float: left;
-    margin: 10px;
+.dropdown-item {
+    font-size: 12px;
+    padding-left: 5px;
+    min-width: 80px;
+    background-color: darkslategrey;
+    color: white;
 }
 
-.clear {
-    background: rgba(76, 175, 80, 0);
+.dropdown-item:hover {
+    background-color: slategrey;
+    color: white;
 }
 
-.scrollme {
-    overflow: scroll;
-    height: 500px;
-    width: 100%;
+/******************/
+/* sidebar styles */
+/******************/
+.sidebar {
+    border-left: 2px ridge black;
+    padding-top: 10 px;
 }
 
+.sidebar h1 {
+	font-size: 20px;
+	margin: 60px auto 70px auto;
+	text-align: center;
+}
+
+/*************************/
+/* image behavior styles */
+/*************************/
 .thumbnail_img {
     width: 95%;
     height: auto;
     margin: auto auto 40px auto;
     border: 1px solid black;
-    border-radius: 3px;
 	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
@@ -57,82 +71,35 @@ th {
     border: 3px solid darkslategray;
 }
 
-.pic_hover {
+.summ_img {
+    float: left;
+    width: 70%;
     border: 1px solid black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+    margin: 10px;
 }
 
-.pic_hover:hover
-{
-    border: 4px ridge darkslategray;
+.vis_img {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 10px auto 0 auto;
+    border: 1px solid black;
+	border-radius: 3px;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.9);
 }
 
-.topspace {
-    margin-top: 40px;
-}
-
-.bottomspace {
-    margin-bottom: 40px;
-}
-
-.sidebar {
-    border-left: 2px ridge black;
-    padding-top: 10 px;
-}
-
-.sidebar h1 {
-	font-size: 20px;
-	margin: 40px auto 50px auto;
-	text-align: center;
-}
-
-.desc_para {
-	display: block;
-    text-align: justify;
-	margin: 20px auto 200px auto;
-}
-
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 60%;
-  }
-
-h1, h2 {
-    font-family: 'Abril Fatface', cursive;
-}
-
-h2 {
-    font-size: 22px;
-}
-
+/*****************************/
+/* paragraph behavior styles */
+/*****************************/
 .summ_para {
     margin-top: 25px;
-    margin-right: 5px;
-    padding-left: 10px;
     text-align: justify;
 }
 
-.dropdown-item {
-    font-size: 12px;
-    padding-left: 5px;
-    min-width: 80px;
-}
-
-.navbar-nav {
-    padding-right: 25px;
-}
-
-.navbar-brand h1 {
-    font-size: 25px;
-}
-
-.dropdown-item {
-    background-color:#343a40;
-    color: white;
-}
-
-.dropdown-item:hover {
-    background-color: slategrey;
-    color: white;
-}
+.vis_para {
+	display: block;
+    width: 60%;
+    text-align: justify;
+	margin: 20px auto 100px auto;
+  }
