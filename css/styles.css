@@ -127,3 +127,18 @@ h2 {
 .centered {
     text-align: center;
 }
+
+/************************/
+/* table control styles */
+/************************/
+th {
+    text-align: left;
+    position: sticky;
+    top: 0;
+}
+
+.scrollme {
+    overflow: scroll;
+    height: 500px;
+    width: 100%;
+}
