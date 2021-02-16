@@ -3,7 +3,7 @@
 /* set gradient for background */
 /*******************************/
 .grad {
-    background: linear-gradient(90deg, rgba(4,152,187,1) 0%, rgba(22,218,228,1) 35%, rgba(45,222,207,1) 100%);
+    background: linear-gradient(90deg, rgba(4,152,187,1) 0%, rgba(122,203,218,1) 35%, rgba(166,223,226,1) 100%);
 }
 
 /********************/
@@ -80,7 +80,7 @@ h2 {
     width: 70%;
     border: 1px solid black;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
-    margin: 10px;
+    margin: 0 20px 20px 0;
 }
 
 .vis_img {
@@ -126,7 +126,8 @@ h2 {
 /* paragraph behavior styles */
 /*****************************/
 .summ_para {
-    margin-top: 25px;
+    font-size: 18px;
+    margin: 25px 10px 40px 10px;
     text-align: justify;
 }
 
@@ -141,7 +142,7 @@ h2 {
 	display: block;
     width: 80%;
     text-align: justify;
-	margin: 20px auto auto auto;
+	margin: 20px auto 70px auto;
 }
 
 /******************/
