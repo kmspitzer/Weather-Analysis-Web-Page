@@ -123,3 +123,7 @@ h2 {
 .bottomspace {
     margin-bottom: 40px;
 }
+
+.centered {
+    text-align: center;
+}
