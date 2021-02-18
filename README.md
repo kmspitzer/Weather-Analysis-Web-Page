@@ -1,7 +1,7 @@
 # Web Design Challenge
  
  
-       Kate Spitzer
+       Kate Spitzer -- collaboration with Rick Spitzer
        
        The Web Design Challenge makes use of data and charts generated in the Python API WeatherPy
        Challenge in order to create a responsive website using HTML and CSS.  Website can be viewed at:
