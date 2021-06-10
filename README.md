@@ -4,7 +4,7 @@
        Kate Spitzer
        
        
-       To run this site, visit:  https://kmspitzer.github.io/Web-Design-Challenge/
+       To run this site, visit:  https://kmspitzer.github.io/Web-Design-Challenge
        
        
        The Web Design Challenge makes use of data and charts generated in the Python API WeatherPy
