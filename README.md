@@ -1,15 +1,10 @@
-# Web Design Challenge
+# Weather-Analysis-Web-Page
  
- 
-       Kate Spitzer
-       
-       
-       To run this site, visit:  https://kmspitzer.github.io/Web-Design-Challenge
        
        
        The Web Design Challenge makes use of data and charts generated in the Python API WeatherPy
        Challenge in order to create a responsive website using HTML and CSS.  Website can be viewed at:
-       http://kmspitzer.github.io/Web-Design-Challenge.
+       http://kmspitzer.github.io/Weather-Analysis-Web-Page.
        
        Data:
        -----
