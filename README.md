@@ -28,6 +28,9 @@
        The landing page consists of a summary of the WeatherPy project, and a sidebar with photo
        links to our visualization pages.
        
+       ![image](/assets/weblandingpage.png)
+       
+       
        Visualization Pages:
        --------------------
        Each visualization page displays the appropriate plot in the main page area, followed by
@@ -45,6 +48,8 @@
        table scrolls vertically and horizontally, when the screen is narrow and scrolling is
        needed to see all columns.
        
+       ![image](/assets/datatblpage.png)
+       
        BONUS: Hemispheres Carousel
        ---------------------------
        I added additional functionality which lands on a descriptive page introducing the
@@ -58,3 +63,4 @@
        hover, the image will zoom in for closer user inspection.
        
 
+       ![image](/assets/carouselpage.png)
